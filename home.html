@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Growtopia - Home</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            text-align: center; 
+            padding: 0; 
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: url('background.jpg') no-repeat center center/cover;
+            color: white;
+        }
+        .container {
+            max-width: 600px; 
+            padding: 20px; 
+            background: rgba(255, 255, 255, 0.8); 
+            border-radius: 10px; 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: black;
+            text-align: center;
+        }
+        h1 { color: #2c7a2c; }
+        h2 { color: #245d24; }
+        p { font-size: 18px; }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        button {
+            padding: 10px 20px; 
+            font-size: 16px; 
+            background: #2c7a2c; 
+            color: white; 
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer;
+            flex: 1;
+            max-width: 180px;
+        }
+        button:hover {
+            background: #245d24;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>WELCOME TO GROWTOPIA</h1>
+        <h2>WHERE GROWTH MEETS GREEN</h2>
+        <p>Your ultimate plant assistant for care, recommendations, and disease diagnosis.</p>
+        <div class="button-container">
+            <button onclick="location.href='plant_guide.html'">Plant Guide</button>
+            <button onclick="location.href='choose_right.html'">Choose the Right One</button>
+            <button onclick="location.href='if sick.html'">If Sick, Treat</button>
+        </div>
+    </div>
+</body>
+</html>

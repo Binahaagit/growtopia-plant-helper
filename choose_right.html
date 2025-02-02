@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose the Right Plant</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background: url('bg6.jpg') no-repeat center center/cover;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            margin: 0;
+            color: white;
+            
+        }
+        .home-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    background: #2c7a2c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.home-button:hover {
+    background: #245d24;
+}
+
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: inherit;
+            
+            z-index: -1;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: black;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+        h1 { color: #2c7a2c; }
+        label { font-weight: bold; }
+        .input-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        input {
+            padding: 8px;
+            width: 80%;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background: #2c7a2c;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background: #245d24;
+        }
+    </style>
+</head>
+<body>
+    <button class="home-button" onclick="location.href='home.html'">🏠</button>
+
+    <div class="container">
+        <h1>Choose the Right Plant</h1>
+        <p>Enter the environmental factors below to find the best plants for your conditions.</p>
+        <div class="input-container">
+            <label for="humidity">Humidity (%)</label>
+            <input type="number" id="humidity" placeholder="Enter humidity level">
+            
+            <label for="temperature">Temperature (°C)</label>
+            <input type="number" id="temperature" placeholder="Enter temperature">
+            
+            <label for="soil">Soil Type</label>
+            <input type="text" id="soil" placeholder="Enter soil type (e.g., sandy, clay, loamy)">
+        </div>
+        <button onclick="getPlantRecommendations()">Find Plants</button>
+    </div>
+    <script>
+        function getPlantRecommendations() {
+            let humidity = document.getElementById('humidity').value;
+            let temperature = document.getElementById('temperature').value;
+            let soil = document.getElementById('soil').value;
+            
+            if (humidity && temperature && soil) {
+                alert('Fetching plant recommendations based on input!');
+            } else {
+                alert('Please fill in all fields.');
+            }
+        }
+    </script>
+</body>
+</html>

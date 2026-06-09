@@ -1,0 +1,365 @@
+[
+  {
+    "name": "Aloe Vera",
+    "humidityRange": [
+      20,
+      60
+    ],
+    "temperatureRange": [
+      15,
+      35
+    ],
+    "soil": [
+      "sandy",
+      "loamy"
+    ]
+  },
+  {
+    "name": "Peace Lily",
+    "humidityRange": [
+      50,
+      80
+    ],
+    "temperatureRange": [
+      18,
+      30
+    ],
+    "soil": [
+      "loamy"
+    ]
+  },
+  {
+    "name": "Spider Plant",
+    "humidityRange": [
+      40,
+      70
+    ],
+    "temperatureRange": [
+      13,
+      27
+    ],
+    "soil": [
+      "loamy",
+      "sandy"
+    ]
+  },
+  {
+    "name": "Snake Plant",
+    "humidityRange": [
+      20,
+      60
+    ],
+    "temperatureRange": [
+      10,
+      30
+    ],
+    "soil": [
+      "sandy",
+      "loamy"
+    ]
+  },
+  {
+    "name": "Boston Fern",
+    "humidityRange": [
+      60,
+      90
+    ],
+    "temperatureRange": [
+      15,
+      25
+    ],
+    "soil": [
+      "clay",
+      "loamy"
+    ]
+  },
+  {
+    "name": "Areca Palm",
+    "humidityRange": [
+      50,
+      80
+    ],
+    "temperatureRange": [
+      18,
+      30
+    ],
+    "soil": [
+      "loamy"
+    ]
+  },
+  {
+    "name": "English Ivy",
+    "humidityRange": [
+      40,
+      70
+    ],
+    "temperatureRange": [
+      10,
+      25
+    ],
+    "soil": [
+      "clay",
+      "loamy"
+    ]
+  },
+  {
+    "name": "Rubber Plant",
+    "humidityRange": [
+      40,
+      60
+    ],
+    "temperatureRange": [
+      16,
+      30
+    ],
+    "soil": [
+      "loamy"
+    ]
+  },
+  {
+    "name": "ZZ Plant",
+    "humidityRange": [
+      20,
+      50
+    ],
+    "temperatureRange": [
+      15,
+      28
+    ],
+    "soil": [
+      "sandy",
+      "loamy"
+    ]
+  },
+  {
+    "name": "Dracaena",
+    "humidityRange": [
+      40,
+      60
+    ],
+    "temperatureRange": [
+      18,
+      27
+    ],
+    "soil": [
+      "loamy"
+    ]
+  },
+  {
+    "name": "Pothos",
+    "humidityRange": [
+      40,
+      60
+    ],
+    "temperatureRange": [
+      15,
+      30
+    ],
+    "soil": [
+      "loamy"
+    ]
+  },
+  {
+    "name": "Calathea",
+    "humidityRange": [
+      60,
+      80
+    ],
+    "temperatureRange": [
+      18,
+      26
+    ],
+    "soil": [
+      "clay",
+      "loamy"
+    ]
+  },
+  {
+    "name": "Philodendron",
+    "humidityRange": [
+      60,
+      80
+    ],
+    "temperatureRange": [
+      18,
+      26
+    ],
+    "soil": [
+      "loamy"
+    ]
+  },
+  {
+    "name": "Jade Plant",
+    "humidityRange": [
+      30,
+      60
+    ],
+    "temperatureRange": [
+      18,
+      30
+    ],
+    "soil": [
+      "sandy"
+    ]
+  },
+  {
+    "name": "Bamboo Palm",
+    "humidityRange": [
+      50,
+      80
+    ],
+    "temperatureRange": [
+      18,
+      28
+    ],
+    "soil": [
+      "loamy"
+    ]
+  },
+  {
+    "name": "Dumb Cane",
+    "humidityRange": [
+      60,
+      80
+    ],
+    "temperatureRange": [
+      16,
+      28
+    ],
+    "soil": [
+      "clay",
+      "loamy"
+    ]
+  },
+  {
+    "name": "Cast Iron Plant",
+    "humidityRange": [
+      40,
+      60
+    ],
+    "temperatureRange": [
+      10,
+      24
+    ],
+    "soil": [
+      "sandy",
+      "loamy"
+    ]
+  },
+  {
+    "name": "Fiddle Leaf Fig",
+    "humidityRange": [
+      40,
+      60
+    ],
+    "temperatureRange": [
+      16,
+      24
+    ],
+    "soil": [
+      "loamy"
+    ]
+  },
+  {
+    "name": "Aglaonema",
+    "humidityRange": [
+      50,
+      80
+    ],
+    "temperatureRange": [
+      16,
+      30
+    ],
+    "soil": [
+      "clay",
+      "loamy"
+    ]
+  },
+  {
+    "name": "Croton",
+    "humidityRange": [
+      40,
+      60
+    ],
+    "temperatureRange": [
+      18,
+      26
+    ],
+    "soil": [
+      "loamy"
+    ]
+  },
+  {
+    "name": "Anthurium",
+    "humidityRange": [
+      70,
+      90
+    ],
+    "temperatureRange": [
+      20,
+      30
+    ],
+    "soil": [
+      "loamy"
+    ]
+  },
+  {
+    "name": "Geranium",
+    "humidityRange": [
+      30,
+      60
+    ],
+    "temperatureRange": [
+      15,
+      25
+    ],
+    "soil": [
+      "sandy",
+      "loamy"
+    ]
+  },
+  {
+    "name": "Begonia",
+    "humidityRange": [
+      60,
+      80
+    ],
+    "temperatureRange": [
+      18,
+      25
+    ],
+    "soil": [
+      "clay",
+      "loamy"
+    ]
+  },
+  {
+    "name": "Coleus",
+    "humidityRange": [
+      40,
+      70
+    ],
+    "temperatureRange": [
+      20,
+      30
+    ],
+    "soil": [
+      "loamy"
+    ]
+  },
+  {
+    "name": "Maranta",
+    "humidityRange": [
+      60,
+      80
+    ],
+    "temperatureRange": [
+      18,
+      26
+    ],
+    "soil": [
+      "clay",
+      "loamy"
+    ]
+  }
+]

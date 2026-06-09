@@ -103,19 +103,45 @@
             <input type="text" id="soil" placeholder="Enter soil type (e.g., sandy, clay, loamy)">
         </div>
         <button onclick="getPlantRecommendations()">Find Plants</button>
+        <div id="result" style="margin-top: 20px;"></div>
+
+        
     </div>
-    <script>
-        function getPlantRecommendations() {
-            let humidity = document.getElementById('humidity').value;
-            let temperature = document.getElementById('temperature').value;
-            let soil = document.getElementById('soil').value;
-            
-            if (humidity && temperature && soil) {
-                alert('Fetching plant recommendations based on input!');
-            } else {
-                alert('Please fill in all fields.');
+   <script>
+    async function getPlantRecommendations() {
+        let humidity = document.getElementById('humidity').value;
+        let temperature = document.getElementById('temperature').value;
+        let soil = document.getElementById('soil').value;
+
+        if (humidity && temperature && soil) {
+            try {
+                const response = await fetch('/api/choose-plant', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ humidity, temperature, soil })
+                });
+
+                const data = await response.json();
+
+                let resultHTML = `<h3>Suggested Plants:</h3><ul>`;
+                data.suggested_plants.forEach(plant => {
+                    resultHTML += `<li>${plant}</li>`;
+                });
+                resultHTML += `</ul>`;
+
+                document.getElementById('result').innerHTML = resultHTML;
+
+            } catch (error) {
+                document.getElementById('result').innerHTML = `<p>Something went wrong. Please try again.</p>`;
+                console.error(error);
             }
+        } else {
+            alert('Please fill in all fields.');
         }
-    </script>
+    }
+</script>
+
 </body>
 </html>
